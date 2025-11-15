@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Remix icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+      integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              bebas: ['"Bebas Neue"', "sans-serif"],
+            },
+          },
+          container: {
+            center: true,
+            padding: {
+              DEFAULT: "12px",
+              md: "32px",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="text-white">
+    <header class="fixed w-full top-0 left-0 z-50">
+      <nav class="container flex flex-col justify-center gap-4">
+        <!-- upper -->
+        <div
+          class="flex items-center justify-between h-16 mt-9 py-10 border-b-2 border-white"
+        >
+          <!-- logo -->
+          <div>
+            <img class="w-25" src="Logo.svg" alt="" />
+          </div>
+
+          <!-- search -->
+          <div class="flex w-[741px] mx-auto">
+            <!-- Input -->
+            <input
+              type="text"
+              placeholder="Search something here"
+              class="placeholder-white flex-grow p-3 rounded-l-md bg-[#1E1E1E] opacity-[42%] backdrop-blur-md border border-none shadow-lg hidden md:block"
+            />
+
+            <!-- Button -->
+            <button
+              class="px-4 py-2 text-white rounded-r-md flex items-center bg-[#D3AD7F] hover:opacity-80 duration-300 hidden md:block"
+            >
+              Search
+            </button>
+          </div>
+
+          <!-- icons  -->
+          <div class="">
+            <ul class="flex flex-row gap-10 text-xl">
+              <li><i class="ri-shopping-cart-line"></i></li>
+              <li><i class="ri-user-line"></i></li>
+              <li><i class="ri-heart-line"></i></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- lower -->
+        <div class="">
+          <ul class="flex flex-row gap-[40px] mx-0">
+            <li>Menu</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!--Main Section-->
+    <section
+      class="bg-cover bg-center h-screen brightness-100 relative"
+      id="Home"
+    >
+      <!-- hero -->
+      <div class="text-center relative top-[300px]">
+        <div>
+          <h1 class="text-[130px] font-bebas line-1">
+            "Savor the moment <br />with every sip"
+          </h1>
+          <p>eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</p>
+        </div>
+        <div>
+          <button></button>
+          <button></button>
+        </div>
+      </div>
+    </section>
+    <img src="Rectangle 24119 1.png" alt="" />
+  </body>
+</html>
