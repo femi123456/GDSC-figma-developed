@@ -44,10 +44,10 @@
   </head>
   <body class="text-white tracking-wider">
     <header class="fixed w-full top-0 left-0 z-50">
-      <nav class="container flex flex-col justify-center gap-4">
+      <nav class="container flex flex-col justify-center gap-4 lg:gap-2">
         <!-- upper -->
         <div
-          class="flex items-center justify-between h-16 mt-9 py-10 border-b-2 border-white"
+          class="flex items-center justify-between h-16 mt-9 lg:mt-2 py-10 border-b-2 border-white"
         >
           <!-- logo -->
           <div>
@@ -55,12 +55,12 @@
           </div>
 
           <!-- search -->
-          <div class="flex w-[741px] mx-auto">
+          <div class="flex w-[741px] lg:w-[500px] mx-auto">
             <!-- Input -->
             <input
               type="text"
               placeholder="Search something here"
-              class="placeholder-white flex-grow p-3 rounded-l-md bg-[#1E1E1E] opacity-[42%] backdrop-blur-md border border-none shadow-lg hidden md:block"
+              class="placeholder-white flex-grow p-3 lg:p-2 rounded-l-md bg-[#1E1E1E] opacity-[42%] backdrop-blur-md border border-none shadow-lg hidden md:block"
             />
 
             <!-- Button -->
@@ -99,13 +99,15 @@
     >
       <!-- hero -->
       <div class="text-center relative">
-        <div class="mt-[-10px]">
-          <h1 class="text-[150px] xl:text-9xl font-bebas leading-[140px]">
+        <div class="mt-[-10px] lg:mt-40">
+          <h1
+            class="text-[150px] xl:text-9xl lg:text-8xl font-bebas leading-[140px]"
+          >
             "Savor the moment <br />with every sip"
           </h1>
         </div>
-        <div class="mt-28 mb-10 xl:mt-14">
-          <p class="text-[#938E8E] mx-52">
+        <div class="mt-28 mb-10 xl:mt-14 lg:mt-9">
+          <p class="text-[#938E8E]">
             Discover our carefully crafted coffee blends, made with love and
             passion
           </p>
@@ -113,10 +115,16 @@
         <div
           class="text-center flex flex-row items-center justify-center gap-10"
         >
-          <button class="py-4 text-black bg-white rounded-md w-40">
+          <button
+            class="py-4 lg:py-3 lg:text-xs text-black bg-white rounded-md w-40 lg:w-20"
+          >
             About
           </button>
-          <button class="py-4 bg-[#D3AD7F] rounded-md w-40">Order Now</button>
+          <button
+            class="py-4 lg:py-3 lg:text-xs bg-[#D3AD7F] rounded-md w-40 lg:w-20"
+          >
+            Order Now
+          </button>
         </div>
       </div>
     </section>
