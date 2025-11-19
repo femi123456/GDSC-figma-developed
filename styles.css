@@ -17,4 +17,7 @@ span {
 
 footer {
   background-image: url(images/nathan-dumlao-c2Y16tC3yO8-unsplash\ 1\ 1.svg);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
 }
