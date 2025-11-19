@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,6 +12,8 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- Remix icon -->
     <link
@@ -29,6 +32,8 @@
           extend: {
             fontFamily: {
               bebas: ['"Bebas Neue"', "sans-serif"],
+              poppins: ['"Poppins"', "sans-serif"],
+              outfit: ['"Outfit"', "sans-serif"],
             },
           },
           container: {
@@ -42,7 +47,7 @@
       };
     </script>
   </head>
-  <body class="text-white tracking-wider">
+  <body class="text-white bg-[#101011]">
     <header class="fixed w-full top-0 left-0 z-50">
       <nav class="container flex flex-col justify-center gap-1 lg:gap-2">
         <!-- upper -->
@@ -51,7 +56,7 @@
         >
           <!-- logo -->
           <div>
-            <img class="w-72 md:w-32" src="Logo.svg" alt="" />
+            <img class="w-72 md:w-32" src="images/Logo.svg" alt="" />
           </div>
 
           <!-- search -->
@@ -101,7 +106,7 @@
       <div class="text-center relative">
         <div class="mt-[-10px] lg:mt-40">
           <h1
-            class="text-6xl xl:text-9xl 2xl:text-[190px] lg:text-8xl font-bebas"
+            class="text-6xl xl:text-9xl 2xl:text-[190px] lg:text-8xl font-bebas md:text-8xl"
           >
             "Savor the moment <br />with every sip"
           </h1>
@@ -116,18 +121,246 @@
           class="text-center flex flex-row items-center justify-center gap-7"
         >
           <button
-            class="py-3 text-sm lg:py-3 lg:text-xs text-black bg-white rounded-md w-40 lg:w-20 2xl:w-40 2xl:py-4 2xl:text-[15px]"
+            class="px-10 py-3 bg-[#ffffff] rounded-md text-black w-44"
           >
             About
           </button>
           <button
-            class="py-3 text-sm lg:py-3 lg:text-xs bg-[#D3AD7F] rounded-md w-40 lg:w-20 2xl:w-40 2xl:py-4 2xl:text-[15px]"
+            class="px-10 py-3 bg-[#D3AD7F] rounded-md text-white w-44"
           >
             Order Now
           </button>
         </div>
       </div>
     </section>
-    <img src="Rectangle 24119 1.png" alt="" />
+
+    <!-- 2nd Section -->
+    <section class="bg-[#101011] pt-7">
+      <!-- top section -->
+      <div class="container flex flex-col items-center justify-center text-center gap-10 pb-14 md:flex-row md:gap-8 md:pb-20 md:p-16">
+        <div class="w-96">
+          <p class="font-bebas md:text-left md:text-2xl">Whether you're looking for a classic espresso or a specialty latte, we have something for every coffee lover at Brew Time.</p>
+        </div>
+        <img src="images/png4 1.svg" alt="" class="w-32">
+        <div class="w-96">
+          <p class="font-bebas md:text-right md:text-2xl">Our carefully selected beans are roasted to perfection, ensuring a rich and full-bodied flavor in every sip.</p>
+        </div>
+      </div>
+      <!-- img section -->
+      <div class="flex flex-row mt-[-100px] md:mt-[-130px] justify-between">
+        <img class="w-28 md:w-64" src="images/png2 3.svg" alt="">
+        <img class="w-28 md:w-64" src="images/png2 2.svg" alt="">
+      </div>
+      <!-- middle section -->
+      <fieldset class="bg-[#191919] mt-[-50px] md:mt-[-170px] container py-12">
+        <legend class="text-center font-bebas text-[50px]">EXCLUSIVE COFFEE</legend>
+        <div class="">
+          <div class=" flex flex-col lg:flex-row justify-center gap-2">
+            <div class="flex flex-col items-center text-center gap-8 bg-transparent hover:bg-[#101011] duration-500 hover:shadow-xl py-5 px-10 rounded-sm">
+              <img src="images/taisiia-shestopal-xO9NotFY4mU-unsplash 1.svg" alt="" class="w-64">
+              <div class="w-56 md:w-56 flex flex-col gap-3">
+                <h2 class="text-[#D3AD7F] font-poppins font-semibold text-2xl">Americano</h2>
+                <p class="text-[#938E8E] font-thin text-[16px]">Lorem ipsum dolor sit amet, margin and padding. </p>
+                <h2 class="font-bold">$19.00</h2>
+              </div>
+            </div>
+            <div class="flex flex-col items-center text-center gap-8 bg-transparent hover:bg-[#101011] duration-500 hover:shadow-xl py-5 px-10 rounded-sm">
+              <img src="images/melissa-walker-horn-cGxX3OLFg5M-unsplash 1.png" alt="" class="w-64">
+              <div class="w-56 md:w-56 flex flex-col gap-3">
+                <h2 class="text-[#D3AD7F] font-poppins font-semibold text-2xl">Americano</h2>
+                <p class="text-[#938E8E] font-thin text-[16px]">Lorem ipsum dolor sit amet, margin and padding. </p>
+                <h2 class="font-bold">$20.00</h2>
+              </div>
+            </div>
+            <div class="flex flex-col items-center text-center gap-8 bg-transparent hover:bg-[#101011] duration-500 hover:shadow-xl py-5 px-10 rounded-sm">
+              <img src="images/taisiia-shestopal-xO9NotFY4mU-unsplash 1.svg" alt="" class="w-64">
+              <div class="w-56 md:w-56 flex flex-col gap-3">
+                <h2 class="text-[#D3AD7F] font-poppins font-semibold text-2xl">Americano</h2>
+                <p class="text-[#938E8E] font-thin text-[16px]">Lorem ipsum dolor sit amet, margin and padding. </p>
+                <h2 class="font-bold">$15.00</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <!-- bottom section  -->
+       <div class="container grid grid-cols-1 lg:grid-cols-2 gap-10 items-center p-28">
+        <!-- left  -->
+        <div class="grid grid-cols-1 gap-8">
+          <div class="grid grid-cols-3 md:grid md:grid-cols-3 justify-between gap-10">
+            <div class="text-center flex flex-col gap-3">
+              <h1 class="text-2xl lg:text-5xl font-outfit font-semibold"><span>500+</span></h1>
+              <p class="text-xs text-[#979797]">Over 500 cups brewed daily</p>
+            </div>
+            <div class="text-center flex flex-col gap-3">
+              <h1 class="text-2xl lg:text-5xl font-outfit font-semibold"><span>1000+</span></h1>
+              <p class="text-xs text-[#979797]">Join our community of 1,000+ daily customers</p>
+            </div>
+            <div class="text-center flex flex-col gap-3">
+              <h1 class="text-2xl lg:text-5xl font-outfit font-semibold"><span>5</span></h1>
+              <p class="text-xs text-[#979797]">Visit one of our 5 convenient locations across the city</p>
+            </div>
+          </div>
+          <div class="">
+            <p class="font-bebas uppercase text-2xl">Join our community of coffee lovers and enjoy over 500 cups brewed daily by our expert baristas. With 5 convenient locations across the city, it's easy to savor our rich, full-bodied blends and friendly service. Trust our passionate team to deliver the perfect cup every time.</p>
+          </div>
+        </div>
+        <!-- right  -->
+        <div>
+          <img src="images/pngwing 2.svg" alt="">
+        </div>
+       </div>
+    </section>
+
+    <!-- 3rd Section -->
+    <section class="py-10">
+      <!-- top  -->
+      <div class="flex flex-row items-center justify-center border-t-[1px] border-[#4A4A4A] py-8 border-b-[1px]">
+        <img src="images/Frame 48095423.svg" alt="" class="w-52">
+        <img src="images/Frame 48095424.svg" alt="" class="w-52">
+        <img src="images/Group 48095551.svg" alt="" class="w-52">
+        <img src="images/Group 48095552.svg" alt="" class="w-52">
+        <img src="images/Group 48095553.svg" alt="" class="w-52">
+      </div>
+
+      <!-- bottom  -->
+       <div class="container text-center mt-14">
+        <div class=" flex flex-col gap-8">
+          <h1 class="font-bebas text-3xl"><span>Frequently Asked Questions</span></h1>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br/> Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+        </div>
+
+        <div class="grid grid-cols-4 gap-10 mt-14 px-10">
+          <div class="flex flex-col items-start justify-center gap-3 text-left pl-4">
+            <div class="flex flex-row items-center justify-center gap-3 text-right">
+              <img src="images/Frame.svg" alt="">
+              <h1 class="font-bebas text-3xl">OUR COFFEE</h1>
+            </div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+            <a href=""><span>See all   <i class="ri-upload-2-line"></i></a></span>
+          </div>
+          <div class="flex flex-col items-start justify-center gap-3 text-left border-l-[1px] pl-4">
+            <div class="flex flex-row items-center justify-center gap-3 text-right">
+              <img src="images/Frame 2.svg" alt="">
+              <h1 class="font-bebas text-3xl">OUR BEANS</h1>
+            </div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+            <a href=""><span>See all   <i class="ri-upload-2-line"></i></a></span>
+          </div>
+          <div class="flex flex-col items-start justify-center gap-3 text-left border-l-[1px] pl-4">
+            <div class="flex flex-row items-center justify-center gap-3 text-right">
+              <img src="images/Frame 3.svg" alt="">
+              <h1 class="font-bebas text-3xl">PASTRIES</h1>
+            </div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+            <a href=""><span>See all   <i class="ri-upload-2-line"></i></a></span>
+          </div>
+          <div class="flex flex-col items-start justify-center gap-3 text-left border-l-[1px] pl-4">
+            <div class="flex flex-row items-center justify-center gap-3 text-right">
+              <img src="images/Frame 4.svg" alt="">
+              <h1 class="font-bebas text-3xl">PRE-ORDER</h1>
+            </div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+            <a href=""><span>See all   <i class="ri-upload-2-line"></i></a></span>
+          </div>
+        </div>
+
+        <div class="flex flex-row items-center justify-center gap-10 mt-14">
+          <button class="px-10 py-3 bg-white rounded-md text-black w-44">About</button>
+          <button class="px-10 py-3 bg-[#D3AD7F] rounded-md text-white w-44">Contact</button>
+        </div>
+       </div>
+    </section>
+
+    <!-- 4th section  -->
+    <fieldset class="mt-10">
+      <legend class="uppercase font-bebas text-center text-4xl">our guestbook</legend>
+      <div class="grid grid-cols-3 gap-10 px-14 mt-10 items-center justify-center cursor-pointer">
+        <div class="flex flex-col items-center justify-center text-center hover:scale-105 duration-300 group">
+          <div class="bg-[#191919] py-2 rounded-sm pb-20 hover:bg-white duration-300">
+            <i class="ri-double-quotes-l text-5xl group-hover:text-black duration-300"></i>
+            <p class="text-sm text-[#938E8E] font-poppins">
+              Lorem ipsum dolor sit amet, ssfsf consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+            </p>
+          </div>
+          <div class="flex flex-col items-center justify-center -mt-9">
+            <img src="images/Ellipse 10-1.svg" alt="" class="w-16">
+            <h1 class="text-[#938E8E]">Kim Lee Jon</h1>
+            <p class="text-xs text-[#938E8E]">Artist</p>
+          </div>
+        </div>
+        <div class="flex flex-col items-center justify-center text-center hover:scale-105 duration-300 group">
+          <div class="bg-[#191919] py-2 rounded-sm pb-20 hover:bg-white duration-300">
+            <i class="ri-double-quotes-l text-5xl group-hover:text-black duration-300"></i>
+            <p class="text-sm text-[#938E8E] font-poppins">
+              Lorem ipsum dolor sit amet, ssfsf consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+            </p>
+          </div>
+          <div class="flex flex-col items-center justify-center -mt-9">
+            <img src="images/Ellipse 10-2.svg" alt="" class="w-16">
+            <h1 class="text-[#938E8E]">Darel McLovin</h1>
+            <p class="text-xs text-[#938E8E]">Driver</p>
+          </div>
+        </div>
+        <div class="flex flex-col items-center justify-center text-center hover:scale-105 duration-300 group">
+          <div class="bg-[#191919] py-2 rounded-sm pb-20 hover:bg-white duration-300">
+            <i class="ri-double-quotes-l text-5xl group-hover:text-black duration-300"></i>
+            <p class="text-sm text-[#938E8E] font-poppins">
+              Lorem ipsum dolor sit amet, ssfsf consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+            </p>
+          </div>
+          <div class="flex flex-col items-center justify-center -mt-9">
+            <img src="images/Ellipse 10.svg" alt="" class="w-16">
+            <h1 class="text-[#938E8E]">Alexa Blair</h1>
+            <p class="text-xs text-[#938E8E]">Dancer</p>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+
+    <!-- map section  -->
+     <section id="map">
+      <div class="grid grid-cols-2 bg-black relative top-48 left-64 w-96 p-5 rounded-md gap-5">
+        <div>
+          <h1>Address</h1>
+          <p>6170 Clemens River, Kuvalismouth</p>
+        </div>
+        <div>
+          <div>
+            <h1>Email</h1>
+            <p><span>Brewtime@gmail.com</span></p>
+          </div>
+          <div>
+            <h1>Phone number</h1>
+            <p><span>+982-500-5722</span></p>
+          </div>
+        </div>
+      </div>
+     </section>
+
+    <!-- 6th section  -->
+    <section>
+      <div class="text-center mt-10 mb-10">
+        <h1 class="font-bebas text-4xl"><span>Get In Touch With Us</span></h1>
+        <p class="mt-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br/> Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+      </div>
+
+      <div>
+        <form action="">
+          <label>Name:</label><br />
+  <input type="text" name="name" /><br /><br />
+
+  <label>Email:</label><br />
+  <input type="email" name="email" /><br /><br />
+
+  <label>Message:</label><br />
+  <textarea name="message" rows="4"></textarea><br /><br />
+
+  <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+     </section>
   </body>
 </html>
